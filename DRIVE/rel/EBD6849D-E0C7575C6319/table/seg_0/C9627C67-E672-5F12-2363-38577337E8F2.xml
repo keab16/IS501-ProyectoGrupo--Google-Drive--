@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C9627C67-E672-5F12-2363-38577337E8F2" name="TBL_COMPARTIDO">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 05:16:12 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_COMPARTIR" id="1423742C-225A-7EDF-7368-5CE491464F64">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 05:16:37 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO_ORIGEN" id="80C0E5AA-D6CA-36A6-45CD-4303D652EAE1">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 05:16:41 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6460F507-898E-40B1-BFE0-513454AE424A" referredColumn="B3DF06CE-7888-1747-F2D5-CC60C99A12F7"/>
+</associations>
+</Column>
+<Column name="CODIGO_ARCHIVO" id="F324E440-8432-9BED-015B-0208C9B2E07A">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 05:16:49 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E3602A6F-9AF8-4D6A-BD8C-31A933A2A05D" referredColumn="1938B54B-E333-68BF-43C9-2AB77B2E23C6"/>
+</associations>
+</Column>
+<Column name="CODIGO_USUARIO_A_COMPARTIR" id="27283A2F-794E-52A5-F9DD-4982737065D7">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 06:02:39 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9CC98C8F-5ABE-8201-CADC-F28C12DBDE42" referredColumn="B3DF06CE-7888-1747-F2D5-CC60C99A12F7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="191A3299-30F9-7F2F-96B1-EAE2F541A9D3" name="TBL_COMPARTIDO_PK">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 05:16:37 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1423742C-225A-7EDF-7368-5CE491464F64"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E16F3D78-6959-2461-ACCC-222E40D1B05D" name="TBL_COMPARTIDO_TBL_USUARIO_FK">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 05:16:41 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80C0E5AA-D6CA-36A6-45CD-4303D652EAE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6E3B929D-CFB2-5FF4-8097-7F38218FE395" name="TBL_COMPARTIDO_TBL_ARCHIVO_FK">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 05:16:49 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F324E440-8432-9BED-015B-0208C9B2E07A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6219C9CF-862E-C7BE-003A-053E491482BC" name="TBL_COMPARTIDO_TBL_USUARIO_FKv2">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 06:02:39 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27283A2F-794E-52A5-F9DD-4982737065D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

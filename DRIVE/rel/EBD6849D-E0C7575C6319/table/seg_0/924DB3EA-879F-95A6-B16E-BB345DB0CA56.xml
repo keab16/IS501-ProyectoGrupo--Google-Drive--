@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="924DB3EA-879F-95A6-B16E-BB345DB0CA56" name="TBL_COSTOS">
+<createdBy>fatim</createdBy>
+<createdTime>2018-11-01 05:16:18 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_COSTOS" id="655D99D4-C899-D2AD-12CB-B7E74098EE94">
+<createdBy>fatim</createdBy>
+<createdTime>2018-11-01 05:17:08 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COSTOS" id="398D747F-B2BE-5FD2-486C-55471418B112">
+<createdBy>fatim</createdBy>
+<createdTime>2018-11-01 05:17:08 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4DC50DF7-0FA6-E256-1E93-A6A18007250B" name="TBL_COSTOS_PK">
+<createdBy>fatim</createdBy>
+<createdTime>2018-11-01 05:17:08 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="655D99D4-C899-D2AD-12CB-B7E74098EE94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

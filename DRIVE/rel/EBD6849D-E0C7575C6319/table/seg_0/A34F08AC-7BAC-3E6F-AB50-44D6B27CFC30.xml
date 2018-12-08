@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A34F08AC-7BAC-3E6F-AB50-44D6B27CFC30" name="TBL_ZONA_HORARIA">
+<createdBy>Arambú Betancourth</createdBy>
+<createdTime>2018-10-30 16:12:00 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ZONA_HORARIA" id="A3C0E528-DF82-982C-6757-4596C8BE83A8">
+<createdBy>Arambú Betancourth</createdBy>
+<createdTime>2018-10-30 16:12:27 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZONA_HORARIA" id="24370790-1A5F-CCFC-7B82-A3DC60EE9ECA">
+<createdBy>Arambú Betancourth</createdBy>
+<createdTime>2018-10-30 16:12:50 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="92DAF851-5278-E43C-2DEC-B21EF28746E3" name="TBL_ZONA_HORARIA_PK">
+<createdBy>Arambú Betancourth</createdBy>
+<createdTime>2018-10-30 16:12:27 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3C0E528-DF82-982C-6757-4596C8BE83A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="32933776-378D-1E42-B129-FF424A07CA04" name="TBL_PAIS">
+<createdBy>Arambú Betancourth</createdBy>
+<createdTime>2018-10-30 16:14:47 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PAIS" id="6A1D61E2-B350-8BE6-B037-A7A608B5CC82">
+<createdBy>Arambú Betancourth</createdBy>
+<createdTime>2018-10-30 16:15:18 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_IDIOMA" id="EECA6E14-BBC7-C2A8-92EC-99F8DF1210D2">
+<createdBy>fatim</createdBy>
+<createdTime>2018-11-01 04:51:12 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EB247DE9-616F-6671-12FA-82B6DB75DC9C" referredColumn="806E4218-2743-0C00-1FB0-AE54EAB8E50E"/>
+</associations>
+</Column>
+<Column name="PAIS" id="EACACF1A-468A-7AE8-DC23-333AF5E89A21">
+<createdBy>Arambú Betancourth</createdBy>
+<createdTime>2018-10-30 16:15:37 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TBL_ZONA_HORARIA_CODIGO_ZONA_HORARIA" id="47570112-9D09-7A89-C060-D91E86775686">
+<createdBy>fatim</createdBy>
+<createdTime>2018-11-01 04:55:50 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="53D63789-3070-EAF9-04BF-497C41287167" referredColumn="A3C0E528-DF82-982C-6757-4596C8BE83A8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F76FBFC1-8A48-5175-9D78-54C1771FC0BD" name="TBL_PAIS_PK">
+<createdBy>Arambú Betancourth</createdBy>
+<createdTime>2018-10-30 16:15:18 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A1D61E2-B350-8BE6-B037-A7A608B5CC82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8E0FD1B1-0E8A-0264-A03F-8DD863820442" name="TBL_PAIS_TBL_IDIOMA_FK">
+<createdBy>fatim</createdBy>
+<createdTime>2018-11-01 04:51:12 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EECA6E14-BBC7-C2A8-92EC-99F8DF1210D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AE2EE85F-D5CE-8C0B-F3C0-64F13ACF9724" name="TBL_PAIS_TBL_ZONA_HORARIA_FK">
+<createdBy>fatim</createdBy>
+<createdTime>2018-11-01 04:55:50 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47570112-9D09-7A89-C060-D91E86775686"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

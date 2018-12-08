@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C94B48CB-CB06-2024-36DF-1A2784562FBA" containerWithKeyObject="E62A1296-BA12-A92D-F272-845C9C6C025E" localFKIndex="FCAF8F84-94DD-2ACD-5B80-82F8E81C77FE" name="TBL_NOTIFICACIONES_TBL_AGENDA_FK">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 16:16:41 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<referredTableLongName>TBL_AGENDA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>261EBC7A-E0C0-793F-712F-AAA209DCAB04</referredTableID>
+<keyObject>E2B4DB91-834B-5B5F-829F-751BB979CA9A</keyObject>
+<referredKeyID>E2B4DB91-834B-5B5F-829F-751BB979CA9A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_AGENDA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

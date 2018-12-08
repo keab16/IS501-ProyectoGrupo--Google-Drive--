@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="261EBC7A-E0C0-793F-712F-AAA209DCAB04" name="TBL_AGENDA">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 16:12:06 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_AGENDA" id="09DA1272-F11C-0715-D74A-D7A313841370">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 16:13:57 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TITULO" id="17ACFB32-8F32-0136-27BD-6E4A8E605264">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 16:13:57 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DETALLE" id="AA35AE7B-7663-19B4-8A2B-369DB1084CBF">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 16:13:57 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TBL_USUARIO_CODIGO_USUARIO" id="B94726CB-0915-2308-3290-3B19B1CD69A1">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 16:14:01 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7DBC5B17-A667-E207-4D2E-ECFF60A7008D" referredColumn="B3DF06CE-7888-1747-F2D5-CC60C99A12F7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E2B4DB91-834B-5B5F-829F-751BB979CA9A" name="TBL_AGENDA_PK">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 16:13:57 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09DA1272-F11C-0715-D74A-D7A313841370"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A6F5020B-0D23-2B94-0BF8-FE03E2B85711" name="TBL_AGENDA_TBL_USUARIO_FK">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 16:14:01 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B94726CB-0915-2308-3290-3B19B1CD69A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

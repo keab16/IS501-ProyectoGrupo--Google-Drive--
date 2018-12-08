@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8F0561B4-C1F9-6B0E-9EAF-67BC78BA6F98" containerWithKeyObject="03E26D0C-2AA8-A88D-3ED6-A72A577333FE" localFKIndex="3374DE0E-7032-5D36-C572-C461C5D209C2" name="TBL_TAREAS_TBL_ARCHIVO_FK">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 05:50:32 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<referredTableLongName>TBL_ARCHIVO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>403C9853-1E08-34A7-0B1E-39C942667690</referredTableID>
+<keyObject>381FA4A2-4950-4034-44E8-7172E04A3C27</keyObject>
+<referredKeyID>381FA4A2-4950-4034-44E8-7172E04A3C27</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_ARCHIVO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

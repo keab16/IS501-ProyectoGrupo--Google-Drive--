@@ -1,0 +1,204 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="403C9853-1E08-34A7-0B1E-39C942667690" name="TBL_ARCHIVO">
+<createdBy>Arambú Betancourth</createdBy>
+<createdTime>2018-10-30 16:29:15 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ARCHIVO" id="1938B54B-E333-68BF-43C9-2AB77B2E23C6">
+<createdBy>Arambú Betancourth</createdBy>
+<createdTime>2018-10-30 16:29:36 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_TIPO_ARHIVO" id="18938E9A-A2EA-6C55-C01B-25AFE877E6B4">
+<createdBy>Arambú Betancourth</createdBy>
+<createdTime>2018-10-30 16:32:43 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="64447782-C002-B14A-13D6-328FA6E5B183" referredColumn="81D613CF-E0F2-F740-BFA5-3724B51863B5"/>
+</associations>
+</Column>
+<Column name="CODIGO_PERMISO" id="E88DCA16-43A6-1E95-740C-1F477EFACA86">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 05:15:30 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="552F8989-002D-93D9-2526-4943DE2AB62F" referredColumn="B677D0D7-574E-BCD8-5C08-9AC6A3FA296A"/>
+</associations>
+</Column>
+<Column name="CODIGO_USUARIO" id="A19DCB78-2ED5-3851-1CD8-8FF3D515AE49">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 05:31:07 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="54EBE723-E001-34D4-9214-8869F15D1604" referredColumn="B3DF06CE-7888-1747-F2D5-CC60C99A12F7"/>
+</associations>
+</Column>
+<Column name="NOMBRE" id="679715FD-6492-74DB-5A99-E97E560E7B94">
+<createdBy>Arambú Betancourth</createdBy>
+<createdTime>2018-10-30 16:29:57 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UBICACION" id="F7ED0A0A-1AB8-9E1E-DC0C-554BEF7F0E76">
+<createdBy>Arambú Betancourth</createdBy>
+<createdTime>2018-10-30 16:34:07 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="19482DA7-03EC-72D6-AC31-1C7C19EB5615">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 05:12:46 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TAMANIO" id="CB17DA98-AB57-8550-8BAE-7DB79B5FECFA">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 05:32:59 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ALMACENAMIENTO_USUADO" id="3E7FA45C-0D36-BB7A-1BC7-48AAC4D13A6F">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 05:34:13 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_CREACION" id="DA231E47-4120-3640-D3F7-E66F6A16FC45">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 05:32:59 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_MODIFICACION" id="BF27FB73-1350-EF7E-0890-6C07326AC6EF">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 05:32:59 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_ABIERTO" id="953752F2-BD9C-49DA-59EF-050D59C1B9B7">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 05:35:02 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Compartir" id="BDD891DB-5BC9-A56E-D250-985EEAA8094C">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 15:45:12 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="381FA4A2-4950-4034-44E8-7172E04A3C27" name="TBL_ARCHIVO_PK">
+<createdBy>Arambú Betancourth</createdBy>
+<createdTime>2018-10-30 16:29:36 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1938B54B-E333-68BF-43C9-2AB77B2E23C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5848FBEB-6C08-86BE-28EA-19E0B6CA275D" name="TBL_ARCHIVO_TBL_TIPO_ARCHIVO_FK">
+<createdBy>Arambú Betancourth</createdBy>
+<createdTime>2018-10-30 16:32:43 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18938E9A-A2EA-6C55-C01B-25AFE877E6B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D7C2A667-560D-71E4-447F-A0F1E870DADE" name="TBL_ARCHIVO_TBL_PERMISOS_FK">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 05:15:30 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E88DCA16-43A6-1E95-740C-1F477EFACA86"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB8B7ABF-DCAA-3F94-4AD0-73CC3B799898" name="TBL_ARCHIVO_TBL_USUARIO_FK">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 05:31:07 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A19DCB78-2ED5-3851-1CD8-8FF3D515AE49"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

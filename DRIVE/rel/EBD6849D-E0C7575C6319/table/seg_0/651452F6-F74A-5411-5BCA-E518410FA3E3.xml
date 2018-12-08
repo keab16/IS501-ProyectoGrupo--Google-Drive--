@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="651452F6-F74A-5411-5BCA-E518410FA3E3" name="TBL_PERMISOS">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 05:14:35 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PERMISO" id="B677D0D7-574E-BCD8-5C08-9AC6A3FA296A">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 05:15:03 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PERMISO" id="9AA55C24-F9FD-E03F-1E32-9D9246F489D7">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 05:15:21 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7BFA9065-D1E4-0CF1-1C92-7BE5005C6AA8" name="TBL_PERMISOS_PK">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 05:15:03 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B677D0D7-574E-BCD8-5C08-9AC6A3FA296A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

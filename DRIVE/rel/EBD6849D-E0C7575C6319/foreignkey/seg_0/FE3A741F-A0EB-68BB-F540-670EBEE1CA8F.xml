@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FE3A741F-A0EB-68BB-F540-670EBEE1CA8F" containerWithKeyObject="7D91325E-897C-3122-704B-0174B09FA73F" localFKIndex="2D46922E-3155-8361-68D3-27149BB323C7" name="TBL_USUARIO_TBL_MEMBRESIA_FK">
+<createdBy>fatim</createdBy>
+<createdTime>2018-11-01 04:53:24 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<referredTableLongName>TBL_MEMBRESIA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0D403C51-3EB0-9CD6-123B-05FE334D844A</referredTableID>
+<keyObject>28E2C23D-590D-8143-6774-69702E50C57B</keyObject>
+<referredKeyID>28E2C23D-590D-8143-6774-69702E50C57B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_MEMBRESIA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

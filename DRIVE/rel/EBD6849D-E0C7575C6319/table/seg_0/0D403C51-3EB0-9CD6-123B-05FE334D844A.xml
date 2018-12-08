@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0D403C51-3EB0-9CD6-123B-05FE334D844A" name="TBL_MEMBRESIA">
+<createdBy>fatim</createdBy>
+<createdTime>2018-11-01 04:51:51 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_MEMBRESIA" id="D8EC444F-E5ED-64C1-219B-916552009FDB">
+<createdBy>fatim</createdBy>
+<createdTime>2018-11-01 04:52:57 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_COSTOS" id="5564A197-6C07-8972-84DB-7AAE0AC562F4">
+<createdBy>fatim</createdBy>
+<createdTime>2018-11-01 05:17:14 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3C33166D-84D5-FB16-2B6D-87E2ED1580FD" referredColumn="655D99D4-C899-D2AD-12CB-B7E74098EE94"/>
+</associations>
+</Column>
+<Column name="MEMBRESIA" id="D990A520-DB63-9467-1A0A-111054B6645C">
+<createdBy>fatim</createdBy>
+<createdTime>2018-11-01 04:52:57 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="28E2C23D-590D-8143-6774-69702E50C57B" name="TBL_MEMBRESIA_PK">
+<createdBy>fatim</createdBy>
+<createdTime>2018-11-01 04:52:57 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8EC444F-E5ED-64C1-219B-916552009FDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="29FC35C4-1A3D-528C-D2F9-7D735625D94F" name="TBL_MEMBRESIA_TBL_COSTOS_FK">
+<createdBy>fatim</createdBy>
+<createdTime>2018-11-01 05:17:14 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5564A197-6C07-8972-84DB-7AAE0AC562F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

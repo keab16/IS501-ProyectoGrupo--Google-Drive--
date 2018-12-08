@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="53D63789-3070-EAF9-04BF-497C41287167" containerWithKeyObject="32933776-378D-1E42-B129-FF424A07CA04" localFKIndex="AE2EE85F-D5CE-8C0B-F3C0-64F13ACF9724" name="TBL_PAIS_TBL_ZONA_HORARIA_FK">
+<createdBy>fatim</createdBy>
+<createdTime>2018-11-01 04:55:50 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<referredTableLongName>TBL_ZONA_HORARIA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A34F08AC-7BAC-3E6F-AB50-44D6B27CFC30</referredTableID>
+<keyObject>92DAF851-5278-E43C-2DEC-B21EF28746E3</keyObject>
+<referredKeyID>92DAF851-5278-E43C-2DEC-B21EF28746E3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_ZONA_HORARIA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

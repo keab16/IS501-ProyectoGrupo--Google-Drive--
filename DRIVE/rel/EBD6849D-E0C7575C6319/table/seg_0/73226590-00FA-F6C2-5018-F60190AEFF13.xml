@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="73226590-00FA-F6C2-5018-F60190AEFF13" name="TBL_NOTAS">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 05:22:05 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_NOTAS" id="5DA29B13-2AA7-C5ED-C83E-20BEA74D1B55">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 05:22:29 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO" id="F457A6FE-9436-ED4C-A486-80B4DB54DE88">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 05:24:55 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D7B32B8B-2819-D0F5-52E5-02BB1216B34B" referredColumn="B3DF06CE-7888-1747-F2D5-CC60C99A12F7"/>
+</associations>
+</Column>
+<Column name="CODIGO_ARCHIVO" id="53CAF556-ABA4-4129-D578-EE046D27BA6B">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 05:23:41 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="302384DE-6DB8-977D-E83C-ACC5BD0B518F" referredColumn="1938B54B-E333-68BF-43C9-2AB77B2E23C6"/>
+</associations>
+</Column>
+<Column name="NOTAS" id="C1E6A9D8-3E9D-09B5-7CF8-BE5E89B7EFD1">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 05:22:49 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TITULO" id="16B486D1-2229-50FA-22E1-E1990D99A758">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 05:58:46 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3C2A9909-EA8A-76AE-38E6-CE7C2258033B" name="TBL_NOTAS_PK">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 05:22:29 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5DA29B13-2AA7-C5ED-C83E-20BEA74D1B55"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="209297BA-5B4D-04FE-F6F2-CB99211B5797" name="TBL_NOTAS_TBL_ARCHIVO_FK">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 05:23:41 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53CAF556-ABA4-4129-D578-EE046D27BA6B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FFEF2F6E-CCBF-D9EA-B65B-5D04726E876E" name="TBL_NOTAS_TBL_USUARIO_FK">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 05:24:55 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F457A6FE-9436-ED4C-A486-80B4DB54DE88"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

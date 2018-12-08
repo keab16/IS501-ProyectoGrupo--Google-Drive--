@@ -1,0 +1,205 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7D91325E-897C-3122-704B-0174B09FA73F" name="TBL_USUARIO">
+<createdBy>Arambú Betancourth</createdBy>
+<createdTime>2018-10-30 15:55:30 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_USUARIO" id="B3DF06CE-7888-1747-F2D5-CC60C99A12F7">
+<createdBy>Arambú Betancourth</createdBy>
+<createdTime>2018-10-30 15:56:04 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_PAIS" id="5E33EBE5-DBE3-0883-7318-A00B17511D31">
+<createdBy>Arambú Betancourth</createdBy>
+<createdTime>2018-10-30 16:17:52 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="33D5A487-3F2F-F73E-3B74-F4EC3F095760" referredColumn="6A1D61E2-B350-8BE6-B037-A7A608B5CC82"/>
+</associations>
+</Column>
+<Column name="CODIGO_GENERO" id="231026BC-750C-6A3F-8A50-19F17D3D38B8">
+<createdBy>Arambú Betancourth</createdBy>
+<createdTime>2018-10-30 16:27:02 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8226C702-84ED-1693-69D0-D8E4E394260D" referredColumn="321530FA-C675-76F8-1FD2-AED7C8A05B48"/>
+</associations>
+</Column>
+<Column name="CODIGO_MEMBRESIA" id="92E7DB61-C24E-3CC6-5F6A-9F07E2E9D1BC">
+<createdBy>fatim</createdBy>
+<createdTime>2018-11-01 04:53:24 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FE3A741F-A0EB-68BB-F540-670EBEE1CA8F" referredColumn="D8EC444F-E5ED-64C1-219B-916552009FDB"/>
+</associations>
+</Column>
+<Column name="NOMBRE" id="DE2E7374-74D8-D7D5-3BA8-072EDE5BABC1">
+<createdBy>Arambú Betancourth</createdBy>
+<createdTime>2018-10-30 16:03:18 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDO" id="2C836BA7-0607-7A89-8450-C3E1A6965CE7">
+<createdBy>Arambú Betancourth</createdBy>
+<createdTime>2018-10-30 16:03:39 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORREO_ELECTRONICO" id="432FD00D-62BC-B1CC-937B-7228778CDD7E">
+<createdBy>Arambú Betancourth</createdBy>
+<createdTime>2018-10-30 16:03:58 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTRASENIA" id="BB3F7527-1140-18F2-0BE1-B72246842101">
+<createdBy>Arambú Betancourth</createdBy>
+<createdTime>2018-10-30 16:04:32 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_NACIMIENTO" id="FEF15355-D5B5-3EB5-4B22-8B6FAF0046A8">
+<createdBy>Arambú Betancourth</createdBy>
+<createdTime>2018-10-30 16:16:12 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_CREACION" id="3324B545-9D9E-182C-1432-F0AA584EB110">
+<createdBy>Arambú Betancourth</createdBy>
+<createdTime>2018-10-30 16:16:25 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONO" id="FBADCEC0-6256-CE11-87A9-FFA91BB67A88">
+<createdBy>Arambú Betancourth</createdBy>
+<createdTime>2018-10-30 16:24:45 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORREO_RECUPERACION" id="F778AF3A-AA4D-61EC-1955-85818973BD41">
+<createdBy>Arambú Betancourth</createdBy>
+<createdTime>2018-10-30 16:25:13 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMPARTIR" id="C9D030DB-5D4F-2355-A454-928ED5FCFDC5">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 05:14:23 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B6AA83F1-708A-36AA-D63E-CE464E253EFD" name="TBL_USUARIO_PK">
+<createdBy>Arambú Betancourth</createdBy>
+<createdTime>2018-10-30 15:56:04 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3DF06CE-7888-1747-F2D5-CC60C99A12F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4509615F-487F-5927-87C4-E6426053DAFB" name="TBL_USUARIO_TBL_PAIS_FK">
+<createdBy>Arambú Betancourth</createdBy>
+<createdTime>2018-10-30 16:17:52 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E33EBE5-DBE3-0883-7318-A00B17511D31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8D1AAC0B-33BA-45AA-E0AC-DC8F488BFC55" name="TBL_USUARIO_TBL_GENERO_FK">
+<createdBy>Arambú Betancourth</createdBy>
+<createdTime>2018-10-30 16:27:02 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="231026BC-750C-6A3F-8A50-19F17D3D38B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2D46922E-3155-8361-68D3-27149BB323C7" name="TBL_USUARIO_TBL_MEMBRESIA_FK">
+<createdBy>fatim</createdBy>
+<createdTime>2018-11-01 04:53:24 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="92E7DB61-C24E-3CC6-5F6A-9F07E2E9D1BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

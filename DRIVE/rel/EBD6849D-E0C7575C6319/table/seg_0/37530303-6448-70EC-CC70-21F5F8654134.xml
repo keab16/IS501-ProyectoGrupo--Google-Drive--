@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="37530303-6448-70EC-CC70-21F5F8654134" name="TBL_GENERO">
+<createdBy>Arambú Betancourth</createdBy>
+<createdTime>2018-10-30 16:26:19 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_GENERO" id="321530FA-C675-76F8-1FD2-AED7C8A05B48">
+<createdBy>Arambú Betancourth</createdBy>
+<createdTime>2018-10-30 16:26:42 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GENERO" id="116863F1-9666-6DC0-1A5D-4020ED12B623">
+<createdBy>Arambú Betancourth</createdBy>
+<createdTime>2018-10-30 16:26:54 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="80F857A7-62BC-17BD-E0FD-0C45809CD6D4" name="TBL_GENERO_PK">
+<createdBy>Arambú Betancourth</createdBy>
+<createdTime>2018-10-30 16:26:42 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="321530FA-C675-76F8-1FD2-AED7C8A05B48"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

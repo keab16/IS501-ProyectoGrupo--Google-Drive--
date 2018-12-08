@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A6EC7B92-584B-3C75-7CEB-7AE605A67337" name="TBL_IDIOMA">
+<createdBy>Arambú Betancourth</createdBy>
+<createdTime>2018-10-30 16:10:11 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_IDIOMA" id="806E4218-2743-0C00-1FB0-AE54EAB8E50E">
+<createdBy>Arambú Betancourth</createdBy>
+<createdTime>2018-10-30 16:10:43 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDIOMA" id="7F5BB296-E29F-7940-07C8-C861EACE45F2">
+<createdBy>Arambú Betancourth</createdBy>
+<createdTime>2018-10-30 16:11:40 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="45CD3B2D-8CE6-D690-9BAF-E166CA675252" name="TBL_IDIOMA_PK">
+<createdBy>Arambú Betancourth</createdBy>
+<createdTime>2018-10-30 16:10:43 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="806E4218-2743-0C00-1FB0-AE54EAB8E50E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

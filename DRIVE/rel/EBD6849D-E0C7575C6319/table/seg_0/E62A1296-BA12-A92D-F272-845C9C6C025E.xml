@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E62A1296-BA12-A92D-F272-845C9C6C025E" name="TBL_NOTIFICACIONES">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 06:13:13 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_NOTIFICACIONES" id="CFD0E9AC-CAF4-28D6-DE33-E967B78F8A8B">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 06:13:41 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO" id="DCA5B382-B94C-609E-DC97-454F14B46325">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 06:14:32 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="14102B4A-DA5B-403D-FB44-AF2F38367660" referredColumn="B3DF06CE-7888-1747-F2D5-CC60C99A12F7"/>
+</associations>
+</Column>
+<Column name="CODIGO_ARCHIVO" id="27879F26-D9C3-14E1-5B87-150A7BA6F9D3">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 06:14:39 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="533130F0-275C-0FA4-B849-94FBBD09B44D" referredColumn="1938B54B-E333-68BF-43C9-2AB77B2E23C6"/>
+</associations>
+</Column>
+<Column name="NOTIFICACION" id="220BF3D6-B10F-764A-08D6-D18AC3293E62">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 06:14:26 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_INICIO" id="ED1D7635-27E0-7035-14CA-EEE8B16C4296">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 16:15:07 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_FIN" id="891099F4-EF86-2E0D-97F8-23C8D0F8071A">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 16:15:07 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TBL_AGENDA_CODIGO_AGENDA" id="AAB50F41-9D1E-16FE-D306-1AF36A4FAA39">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 16:16:41 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C94B48CB-CB06-2024-36DF-1A2784562FBA" referredColumn="09DA1272-F11C-0715-D74A-D7A313841370"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2A539B4B-DE67-7255-AE23-433DC0CF8E5A" name="TBL_NOTIFICACIONES_PK">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 06:13:41 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CFD0E9AC-CAF4-28D6-DE33-E967B78F8A8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F29BB2A5-899C-4FDF-B35E-E0C9F861F919" name="TBL_NOTIFICACIONES_TBL_USUARIO_FK">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 06:14:32 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCA5B382-B94C-609E-DC97-454F14B46325"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="53FE3D50-74EC-F683-C751-8F44BB042864" name="TBL_NOTIFICACIONES_TBL_ARCHIVO_FK">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 06:14:39 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27879F26-D9C3-14E1-5B87-150A7BA6F9D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FCAF8F84-94DD-2ACD-5B80-82F8E81C77FE" name="TBL_NOTIFICACIONES_TBL_AGENDA_FK">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 16:16:41 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AAB50F41-9D1E-16FE-D306-1AF36A4FAA39"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

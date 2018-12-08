@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="03E26D0C-2AA8-A88D-3ED6-A72A577333FE" name="TBL_TAREAS">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 05:49:47 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TAREA" id="2E44623F-EA66-FB83-4EB3-9B11A182CF73">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 05:50:13 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO" id="052111DD-5601-A2C4-F670-08A351F30FE8">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 05:50:21 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="74458325-D94F-1544-2DEF-AFF094BEE4AF" referredColumn="B3DF06CE-7888-1747-F2D5-CC60C99A12F7"/>
+</associations>
+</Column>
+<Column name="CODIGO_ARCHIVO" id="3FB5C2C2-17D8-EDD3-E98E-1C9533311BF5">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 05:50:32 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8F0561B4-C1F9-6B0E-9EAF-67BC78BA6F98" referredColumn="1938B54B-E333-68BF-43C9-2AB77B2E23C6"/>
+</associations>
+</Column>
+<Column name="CODIGO_SUB_TAREA" id="68E216D1-0D91-3487-BF21-FBDA13BE48A2">
+<createdBy>fatim</createdBy>
+<createdTime>2018-11-01 04:54:11 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6C652008-A7EF-A7EB-57C5-929B0766311C" referredColumn="2E44623F-EA66-FB83-4EB3-9B11A182CF73"/>
+</associations>
+</Column>
+<Column name="TITULO" id="24882434-9151-2745-30A6-44DB8A24A4B3">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 05:52:21 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DETALLE" id="A427C816-6C2E-CAC4-13B6-8D0FC6910EB4">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 05:52:21 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA" id="A1E5E44C-3C28-AEF0-3D03-74DEC1267F45">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 05:52:49 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AA423FD1-9AF4-2A0F-A293-12B859167FDB" name="TBL_TAREAS_PK">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 05:50:13 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E44623F-EA66-FB83-4EB3-9B11A182CF73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="077C58B1-7558-5EBB-43C2-DC02777482D0" name="TBL_TAREAS_TBL_USUARIO_FK">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 05:50:21 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="052111DD-5601-A2C4-F670-08A351F30FE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3374DE0E-7032-5D36-C572-C461C5D209C2" name="TBL_TAREAS_TBL_ARCHIVO_FK">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 05:50:32 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3FB5C2C2-17D8-EDD3-E98E-1C9533311BF5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="67413554-BD9A-0FE6-9D6C-EBF6BDD31C3E" name="TBL_TAREAS_TBL_TAREAS_FK">
+<createdBy>fatim</createdBy>
+<createdTime>2018-11-01 04:54:11 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68E216D1-0D91-3487-BF21-FBDA13BE48A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

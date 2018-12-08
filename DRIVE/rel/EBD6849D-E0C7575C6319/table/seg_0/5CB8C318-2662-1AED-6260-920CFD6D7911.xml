@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5CB8C318-2662-1AED-6260-920CFD6D7911" name="TBL_COMENTARIOS">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 05:19:48 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_COMENTARIO" id="DF04FEF6-D45D-1BEA-0AF2-A77E22F71C7C">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 05:20:13 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO" id="2616D259-0A61-FA6D-E39A-22B66FE796B2">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 05:20:23 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9EFDB385-8639-7221-D9DD-C912F2B2AFA7" referredColumn="B3DF06CE-7888-1747-F2D5-CC60C99A12F7"/>
+</associations>
+</Column>
+<Column name="CODIGO_ARCHIVO" id="70D2CD69-61E2-C88B-5CF4-30795E9967DC">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 05:20:33 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8E2D0571-6DB4-D49D-9DE6-B852CC091419" referredColumn="1938B54B-E333-68BF-43C9-2AB77B2E23C6"/>
+</associations>
+</Column>
+<Column name="COMENTARIO" id="41E077FF-10CF-C728-28B5-E38B7AE40719">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 05:28:54 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CC511B32-EAF5-F8F0-2A96-E1320C1DC92B" name="TBL_COMENTARIOS_PK">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 05:20:13 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF04FEF6-D45D-1BEA-0AF2-A77E22F71C7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E1EBE21A-2B89-1AB3-46BD-FF5F69C345D2" name="TBL_COMENTARIOS_TBL_USUARIO_FK">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 05:20:23 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2616D259-0A61-FA6D-E39A-22B66FE796B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E27C4AD0-E56D-879D-A13D-B29F2CD1DE00" name="TBL_COMENTARIOS_TBL_ARCHIVO_FK">
+<createdBy>fatim</createdBy>
+<createdTime>2018-10-31 05:20:33 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="70D2CD69-61E2-C88B-5CF4-30795E9967DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

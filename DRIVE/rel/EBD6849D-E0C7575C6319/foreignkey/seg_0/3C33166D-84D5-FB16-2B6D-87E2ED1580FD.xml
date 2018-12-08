@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3C33166D-84D5-FB16-2B6D-87E2ED1580FD" containerWithKeyObject="0D403C51-3EB0-9CD6-123B-05FE334D844A" localFKIndex="29FC35C4-1A3D-528C-D2F9-7D735625D94F" name="TBL_MEMBRESIA_TBL_COSTOS_FK">
+<createdBy>fatim</createdBy>
+<createdTime>2018-11-01 05:17:14 UTC</createdTime>
+<ownerDesignName>DRIVE</ownerDesignName>
+<referredTableLongName>TBL_COSTOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>924DB3EA-879F-95A6-B16E-BB345DB0CA56</referredTableID>
+<keyObject>4DC50DF7-0FA6-E256-1E93-A6A18007250B</keyObject>
+<referredKeyID>4DC50DF7-0FA6-E256-1E93-A6A18007250B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_COSTOS</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

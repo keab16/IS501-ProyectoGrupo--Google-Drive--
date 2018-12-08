@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="9D4F7519-B5E8-D8FA-863F-14038C41A4D0" mainViewID="475F14EE-DA38-89A2-4F67-CBE851D599ED">
+<createdBy>Arambú Betancourth</createdBy>
+<createdTime>2018-10-30 15:32:44 UTC</createdTime>
+<ownerDesignName>GOOGLE DRIVE</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="74A0E001-5E4D-9322-99A1-22B5065E4697" name="TBL_TAREAS">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:44:47 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TAREA" id="8B82030C-621F-A6C3-916F-47B8A8FC8B6D">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:44:47 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO" id="A2E9F056-C007-C0EA-17DE-8B4F4D81DD38">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:47:17 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9115E214-47DB-CD9F-A8E3-9295AFE75CCE" referredColumn="AFECA767-3186-378C-267F-DA88FAC6D24F"/>
+</associations>
+</Column>
+<Column name="CODIGO_ARCHIVO" id="9BB6FAF0-B8AF-A3FB-F5E6-14926077E742">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:48:25 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DDE95C8A-6A62-3317-833E-F62F8ACDA175" referredColumn="8B9185A9-30FD-9882-34F5-B45CB0A83B9A"/>
+</associations>
+</Column>
+<Column name="CODIGO_SUB_TAREA" id="FF27A8EE-C57E-D627-D033-5363CBB654D5">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:44:47 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A7EB2505-561F-9CB8-2434-53CD1B58255D" referredColumn="8B82030C-621F-A6C3-916F-47B8A8FC8B6D"/>
+</associations>
+</Column>
+<Column name="TITULO" id="64F79B50-30D8-A008-64CB-3622CA4755FA">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:44:47 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DETALLE" id="A86705A4-058C-5E4A-8302-4DD69C11C715">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:44:47 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA" id="A9775B7F-CA99-4FD4-EACF-1C521BDA09FA">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:44:47 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0B5A9449-C987-23A2-F09A-9C33757F9E3A" name="TBL_TAREAS_PK">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:44:47 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B82030C-621F-A6C3-916F-47B8A8FC8B6D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3F0EA839-E0BB-AD76-F324-32121C7254CE" name="TBL_TAREAS_TBL_TAREAS_FK">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:44:47 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF27A8EE-C57E-D627-D033-5363CBB654D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="59AEE048-3632-4A3E-75EA-85DC218E26D8" name="TBL_TAREAS_TBL_USUARIO_FK">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:47:17 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2E9F056-C007-C0EA-17DE-8B4F4D81DD38"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="61B21931-B562-241A-5AD1-521F182BA130" name="TBL_TAREAS_TBL_ARCHIVO_FK">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:48:25 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9BB6FAF0-B8AF-A3FB-F5E6-14926077E742"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

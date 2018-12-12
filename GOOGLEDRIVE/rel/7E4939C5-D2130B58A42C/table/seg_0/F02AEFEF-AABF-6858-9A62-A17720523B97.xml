@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F02AEFEF-AABF-6858-9A62-A17720523B97" name="TBL_PERMISOS">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:16:31 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PERMISO" id="634EE886-EA8D-2477-1D88-23AF28064EB2">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:16:31 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PERMISO" id="C6E2ED12-3141-E56E-F84E-6FE28ED8C686">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:16:31 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4E1801BF-3174-D131-0A80-851F780E6A55" name="TBL_PERMISOS_PK">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:16:31 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="634EE886-EA8D-2477-1D88-23AF28064EB2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

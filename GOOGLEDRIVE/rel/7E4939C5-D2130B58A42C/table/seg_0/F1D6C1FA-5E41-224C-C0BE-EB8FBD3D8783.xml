@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F1D6C1FA-5E41-224C-C0BE-EB8FBD3D8783" name="TBL_ARCHIVO_X_USUARIO">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 01:59:06 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_USUARIO" id="3DF59019-F8FC-FB56-09B1-1FBAED69C516">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:02:17 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7B6EB95F-29BB-C868-D393-E4D8F70DDD6F" referredColumn="AFECA767-3186-378C-267F-DA88FAC6D24F"/>
+</associations>
+</Column>
+<Column name="CODIGO_ARCHIVO" id="76229BF9-6BFE-8DAF-F1D7-3AF1DC1F5ED2">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:02:23 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A5ED9F55-F66E-729A-3206-14FF2ABB775D" referredColumn="8B9185A9-30FD-9882-34F5-B45CB0A83B9A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="32968406-15AD-3D53-FBDD-6F883BA29DB1" name="TBL_ARCHIVO_X_USUARIO_TBL_USUARIO_FK">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:02:17 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3DF59019-F8FC-FB56-09B1-1FBAED69C516"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C7256079-B2B5-4105-F8A8-F195AB101504" name="TBL_ARCHIVO_X_USUARIO_TBL_ARCHIVO_FK">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:02:23 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76229BF9-6BFE-8DAF-F1D7-3AF1DC1F5ED2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

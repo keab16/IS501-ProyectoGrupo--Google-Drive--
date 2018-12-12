@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3EB1394F-CD0B-8411-FE06-5B5766978360" containerWithKeyObject="E58C3048-DD98-DE73-BE02-414BDB17A24F" localFKIndex="48050FAD-C725-1FEF-3046-9B303E7F85FA" name="TBL_CARPETA_TBL_ESTADO_FK">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:10:43 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<referredTableLongName>TBL_ESTADO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8C1D6901-2496-783C-3FDD-F79005D1F505</referredTableID>
+<keyObject>071620AB-7C9E-9B90-28D2-AEAB3E4FFE4B</keyObject>
+<referredKeyID>071620AB-7C9E-9B90-28D2-AEAB3E4FFE4B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_ESTADO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

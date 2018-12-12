@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="49D483FF-4F8A-F26E-C3A4-A5FE4B8DCB7E" name="TBL_EMPRESA">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:18:29 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_EMPRESA" id="4DBD05C7-4B47-510A-4379-25C318ED18AD">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:19:44 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_EMPRESA" id="6D65DAB3-6F75-6F2F-4256-A4B6801D7549">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:19:44 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOMINIO" id="94343F0F-94C4-5C68-D2CA-138D41C9498F">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:19:44 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="15236F80-E713-91F1-E2EC-CC779C6B2F4E">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:21:50 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO_ADMINISTRADOR" id="ADDF1335-2403-E242-1BF1-739AA2622423">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:29:29 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FC91E62D-9AF4-A91C-4DEB-7CD3FF6036B4" referredColumn="AFECA767-3186-378C-267F-DA88FAC6D24F"/>
+</associations>
+</Column>
+<Column name="CODIGO_PAIS" id="55B0344C-B0BC-D724-A1A8-C9A72C65FB9F">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:33:32 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D77D39A7-2EC5-79F7-2C58-E230DAD019F0" referredColumn="F6C5DC62-B97D-EA5F-C243-B83B2E8818C9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="70D623EE-DA2E-40FE-8FD6-4FD0D062B1DB" name="TBL_EMPRESA_PK">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:19:44 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4DBD05C7-4B47-510A-4379-25C318ED18AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4AF7CA3A-0B07-D66B-28F6-AE92D3954AE5" name="TBL_EMPRESA_TBL_USUARIO_FK">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:29:29 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ADDF1335-2403-E242-1BF1-739AA2622423"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6FDC4446-107D-3A2A-8D20-7410AF7797CB" name="TBL_EMPRESA_TBL_PAIS_FK">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:33:32 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55B0344C-B0BC-D724-A1A8-C9A72C65FB9F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

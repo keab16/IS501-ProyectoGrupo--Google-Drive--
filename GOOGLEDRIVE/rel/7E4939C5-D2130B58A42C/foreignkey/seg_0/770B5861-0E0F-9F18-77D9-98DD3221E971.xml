@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="770B5861-0E0F-9F18-77D9-98DD3221E971" containerWithKeyObject="CAD52BD3-91A8-00D7-862D-00921F4B9105" localFKIndex="ED66AE98-C1DF-BB73-8FE1-7065A901F1C9" name="TBL_USUARIO_TBL_PAIS_FK">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:31:49 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<referredTableLongName>TBL_PAIS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0156BB19-B502-CFBE-E069-21AF3441989A</referredTableID>
+<keyObject>64EBDAAB-550F-CCDF-6458-F699BB0DDABC</keyObject>
+<referredKeyID>64EBDAAB-550F-CCDF-6458-F699BB0DDABC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_PAIS</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

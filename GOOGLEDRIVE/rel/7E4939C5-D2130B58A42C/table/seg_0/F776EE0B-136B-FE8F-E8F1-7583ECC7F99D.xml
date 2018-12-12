@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F776EE0B-136B-FE8F-E8F1-7583ECC7F99D" name="TBL_CONTINENTE">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:29:02 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<ordsAlias>table_19</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_CONTINENTE" id="B0910DC6-C0E4-A239-B987-77A8B4232658">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:30:50 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTINENTE" id="1318F788-9BC0-BA9E-8705-598BCF87C1F7">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:30:50 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7F0FB3C4-EF6E-F196-8CB4-EDDFF57CD08F" name="TBL_CONTINENTE_PK">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:30:50 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0910DC6-C0E4-A239-B987-77A8B4232658"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

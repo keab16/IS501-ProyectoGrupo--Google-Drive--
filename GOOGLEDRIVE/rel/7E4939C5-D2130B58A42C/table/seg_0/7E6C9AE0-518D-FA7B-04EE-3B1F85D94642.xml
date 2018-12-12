@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7E6C9AE0-518D-FA7B-04EE-3B1F85D94642" name="TBL_PLANES">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:36:07 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<ordsAlias>table_20</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PLAN" id="DEB708DD-8A97-4E85-A598-059FF3959A09">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:37:06 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_CATEGORIA" id="2F3EBC3D-6110-E977-6EAC-31469B131BDA">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:40:42 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A3C1BCA8-6F8F-D24A-CCF1-F1F7160F6F95" referredColumn="17DCD119-8268-9295-A94D-87D68FB2E401"/>
+</associations>
+</Column>
+<Column name="PLAN" id="32158ED5-82EC-2D25-DE54-63198C84F378">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:37:06 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANTIDAD_ALMACENAMIENTO" id="D69FFD4B-23DE-3C6A-C72C-EB207F8E16E5">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:37:06 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COSTO" id="1AB1864E-32E6-2A19-2B7A-61BBDA8B56A4">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:38:20 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C720F369-8FA7-D215-2B88-E104240AFB63" name="TBL_PLANES_PK">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:37:06 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DEB708DD-8A97-4E85-A598-059FF3959A09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2A12A098-B241-00B9-A47A-586E59350763" name="TBL_PLANES_TBL_CATEGORIA_PLAN_FK">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:40:42 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F3EBC3D-6110-E977-6EAC-31469B131BDA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,230 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BC359891-62A8-46B3-872A-CF980FFDB565" name="TBL_ARCHIVO">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 01:59:59 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ARCHIVO" id="8B9185A9-30FD-9882-34F5-B45CB0A83B9A">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 01:59:59 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO_CREADOR" id="7DB7C02C-03CC-1A2C-28B5-19D0901B48CD">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:08:42 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E96F36AB-ED5D-61FC-CFC6-28244D666F5D" referredColumn="AFECA767-3186-378C-267F-DA88FAC6D24F"/>
+</associations>
+</Column>
+<Column name="NOMBRE" id="10AD14B9-C2BB-0327-59C3-D9C3B99251CF">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 01:59:59 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UBICACION" id="E42193B2-99C3-478E-C6C1-E5031AEBB1B4">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 01:59:59 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="5DA9A87A-1C23-0E0E-53B1-18297959E714">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 01:59:59 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TAMANIO" id="E002FA36-894B-E528-2E64-7F1E3BF28F93">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 01:59:59 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_CREACION" id="E19AC78A-16D8-D9F7-3389-B9309A08DF89">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 01:59:59 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_MODIFICACION" id="8DBDCEF9-8AAD-C7F7-527F-F3EFF5973AC3">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 01:59:59 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_ABIERTO" id="8114C644-1506-55A1-7CF6-981169A6E8E4">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 01:59:59 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_ESTADO" id="F85DF1BB-3CE8-B7B9-5CFF-9B9E59F14943">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:10:57 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E9805A74-DA28-414E-C7D3-2ED4C509BF05" referredColumn="D5178986-B79E-C11C-56FF-370B92C10E3B"/>
+</associations>
+</Column>
+<Column name="CODIGO_TIPO_ARHIVO" id="010AF861-29F5-1AEF-73CE-5474642D4B93">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:16:46 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="04C5193A-3360-78ED-9EFC-947F4C5C44A3" referredColumn="776E06C5-ACBC-8BEC-AF02-23D8CE3B533E"/>
+</associations>
+</Column>
+<Column name="CODIGO_PERMISO" id="119E6A29-1D8A-F4E3-1A01-C8F6EF0F6450">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:16:54 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A592ED45-98E2-86DC-A160-4DE33E1F0759" referredColumn="634EE886-EA8D-2477-1D88-23AF28064EB2"/>
+</associations>
+</Column>
+<Column name="CODIGO_EMPRESA" id="3BB3D91C-ABED-10C3-5A3E-D39D6D1C9D8C">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:25:14 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4170AD25-8C01-FFC7-8AB6-9B338E5C92C9" referredColumn="4DBD05C7-4B47-510A-4379-25C318ED18AD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="50264A8B-A3E9-CEA9-4775-C9972E3E74F3" name="TBL_ARCHIVO_PK">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 01:59:59 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B9185A9-30FD-9882-34F5-B45CB0A83B9A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A808FAAE-BDBE-5367-858E-B77BB8A4463D" name="TBL_ARCHIVO_TBL_USUARIO_FK">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:08:42 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7DB7C02C-03CC-1A2C-28B5-19D0901B48CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AD518053-6AE7-8601-3A9B-159A7A9EF91C" name="TBL_ARCHIVO_TBL_ESTADO_FK">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:10:57 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F85DF1BB-3CE8-B7B9-5CFF-9B9E59F14943"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4814D03D-7B32-EEA5-82CC-838004619F9C" name="TBL_ARCHIVO_TBL_TIPO_ARCHIVO_FK">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:16:46 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="010AF861-29F5-1AEF-73CE-5474642D4B93"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="71A9DE1B-E866-360C-E1F5-4FF944BE95ED" name="TBL_ARCHIVO_TBL_PERMISOS_FK">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:16:54 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="119E6A29-1D8A-F4E3-1A01-C8F6EF0F6450"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C2393F87-A31D-024A-0ABA-E345B4169BB5" name="TBL_ARCHIVO_TBL_EMPRESA_FK">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:25:14 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3BB3D91C-ABED-10C3-5A3E-D39D6D1C9D8C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

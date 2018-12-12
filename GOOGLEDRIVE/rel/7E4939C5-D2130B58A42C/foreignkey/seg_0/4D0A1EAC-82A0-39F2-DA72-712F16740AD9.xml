@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4D0A1EAC-82A0-39F2-DA72-712F16740AD9" containerWithKeyObject="CAD52BD3-91A8-00D7-862D-00921F4B9105" localFKIndex="16DF5CD1-066D-07C8-59F9-82BA93969181" name="TBL_USUARIO_TBL_PLANES_FK">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:41:07 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<referredTableLongName>TBL_PLANES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7E6C9AE0-518D-FA7B-04EE-3B1F85D94642</referredTableID>
+<keyObject>C720F369-8FA7-D215-2B88-E104240AFB63</keyObject>
+<referredKeyID>C720F369-8FA7-D215-2B88-E104240AFB63</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_PLAN</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

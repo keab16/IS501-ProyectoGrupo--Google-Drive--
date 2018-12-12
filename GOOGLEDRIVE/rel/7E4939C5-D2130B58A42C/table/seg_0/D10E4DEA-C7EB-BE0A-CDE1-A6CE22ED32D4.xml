@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D10E4DEA-C7EB-BE0A-CDE1-A6CE22ED32D4" name="TBL_USUARIOS_X_CARPETA">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 01:57:19 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_USUARIO" id="8D6A100E-C756-E3D1-0A19-7200DB71CACC">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 01:58:04 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B766434A-5091-29B4-F76F-522F204D3190" referredColumn="AFECA767-3186-378C-267F-DA88FAC6D24F"/>
+</associations>
+</Column>
+<Column name="CODIGO_CARPETA" id="BB10E839-557D-3E0C-70CB-94CB60861AB9">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 01:58:10 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="317271E4-E45D-E63E-24CE-770A90CC57AC" referredColumn="CF8F0885-5895-9E87-959B-6B2ACEF8959A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C3C7E8E7-7314-CC38-B5AC-7EB20BD58B1A" name="TBL_USUARIOS_X_CARPETA_TBL_USUARIO_FK">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 01:58:04 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D6A100E-C756-E3D1-0A19-7200DB71CACC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BA581566-F3AB-2396-4D7E-E56AE09EBA4F" name="TBL_USUARIOS_X_CARPETA_TBL_CARPETA_FK">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 01:58:10 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB10E839-557D-3E0C-70CB-94CB60861AB9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

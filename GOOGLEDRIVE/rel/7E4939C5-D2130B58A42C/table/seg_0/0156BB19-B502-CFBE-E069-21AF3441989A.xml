@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0156BB19-B502-CFBE-E069-21AF3441989A" name="TBL_PAIS">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:28:24 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PAIS" id="F6C5DC62-B97D-EA5F-C243-B83B2E8818C9">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:28:24 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_IDIOMA" id="8CD685D3-19B3-2F19-D86B-5334CF2EC361">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:28:24 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B6D1A80C-1FE2-0F15-34CD-1AF402C75427" referredColumn="ADAE004C-DC78-27A3-0C00-6F7CDA268B82"/>
+</associations>
+</Column>
+<Column name="PAIS" id="29776244-04EA-F94A-17A2-23BC809AD1AD">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:28:24 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_CONTINENTE" id="9F9748E4-0C1E-C67E-6A4F-A0D5E95BF5B3">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:31:32 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D391453D-C804-A477-69FF-1624F6BF3733" referredColumn="B0910DC6-C0E4-A239-B987-77A8B4232658"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="64EBDAAB-550F-CCDF-6458-F699BB0DDABC" name="TBL_PAIS_PK">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:28:24 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6C5DC62-B97D-EA5F-C243-B83B2E8818C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62094554-114D-8D04-AB99-25C5AEDE7979" name="TBL_PAIS_TBL_IDIOMA_FK">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:28:24 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8CD685D3-19B3-2F19-D86B-5334CF2EC361"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2A76BFA4-7053-6D24-B9AD-C74CDF0F55F9" name="TBL_PAIS_TBL_CONTINENTE_FK">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:31:32 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F9748E4-0C1E-C67E-6A4F-A0D5E95BF5B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

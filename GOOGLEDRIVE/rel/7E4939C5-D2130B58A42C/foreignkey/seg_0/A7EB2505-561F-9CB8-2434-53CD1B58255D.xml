@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A7EB2505-561F-9CB8-2434-53CD1B58255D" containerWithKeyObject="74A0E001-5E4D-9322-99A1-22B5065E4697" localFKIndex="3F0EA839-E0BB-AD76-F324-32121C7254CE" name="TBL_TAREAS_TBL_TAREAS_FK">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:44:47 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<referredTableLongName>TBL_TAREAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>74A0E001-5E4D-9322-99A1-22B5065E4697</referredTableID>
+<keyObject>0B5A9449-C987-23A2-F09A-9C33757F9E3A</keyObject>
+<referredKeyID>0B5A9449-C987-23A2-F09A-9C33757F9E3A</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>CODIGO_TAREA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

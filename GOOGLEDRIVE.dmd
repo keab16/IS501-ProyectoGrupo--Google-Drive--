@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="GOOGLEDRIVE" id="A4533E12-319F-00A8-01C2-FFA392FF5830" version="3.5">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 01:49:31 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A4533E12-319F-00A8-01C2-FFA392FF5830</designId>
+</OSDM_Design>

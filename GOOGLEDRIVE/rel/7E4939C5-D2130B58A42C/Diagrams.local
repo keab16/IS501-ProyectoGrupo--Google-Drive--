@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="8FF947AC-F1AD-4B51-ECBF-AA7F23A15A3C" name="GOOGLEDRIVE" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

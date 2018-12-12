@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="46612DB7-BCF3-1EBF-0138-93B1A1E08179" name="TBL_GENERO">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 01:52:23 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_GENERO" id="FC0B15C9-A22F-E336-A4C8-3724CAF99B98">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 01:52:23 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GENERO" id="052DCE21-98E8-0001-AA33-0654FC3957F1">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 01:52:23 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8EFC030A-D79E-41CE-14C8-51263DCA4BC5" name="TBL_GENERO_PK">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 01:52:23 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC0B15C9-A22F-E336-A4C8-3724CAF99B98"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

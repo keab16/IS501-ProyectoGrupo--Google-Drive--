@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BD3A241D-DA75-C5EB-87EB-D0E7F3668D44" name="TBL_COMENTARIOS">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:12:49 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_COMENTARIO" id="899F8C39-CE22-BBAF-7042-8FA5FD2851B2">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:12:49 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO" id="326D3334-FFB3-B59B-A098-4402CC33DDE3">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:13:52 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0F896070-E865-6A47-CD8F-6B889E28026B" referredColumn="AFECA767-3186-378C-267F-DA88FAC6D24F"/>
+</associations>
+</Column>
+<Column name="CODIGO_ARCHIVO" id="B1F5993A-E76D-4848-32A0-198E3FBB5D76">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:13:59 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F5C1F340-BF64-CD00-0F80-A5EA022C76C5" referredColumn="8B9185A9-30FD-9882-34F5-B45CB0A83B9A"/>
+</associations>
+</Column>
+<Column name="COMENTARIO" id="670B4253-1D76-EA0D-CE61-04755F605FC8">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:12:49 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A6DF53BE-2FC5-FC36-0D37-344979CCB221" name="TBL_COMENTARIOS_PK">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:12:49 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="899F8C39-CE22-BBAF-7042-8FA5FD2851B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BB4F571A-4A23-FF61-8410-B91ABF486489" name="TBL_COMENTARIOS_TBL_USUARIO_FK">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:13:52 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="326D3334-FFB3-B59B-A098-4402CC33DDE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B51233A5-87E0-F270-C863-C9A57C79DA76" name="TBL_COMENTARIOS_TBL_ARCHIVO_FK">
+<createdBy>YOZABETH GARCIA</createdBy>
+<createdTime>2018-12-12 02:13:59 UTC</createdTime>
+<ownerDesignName>GOOGLEDRIVE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1F5993A-E76D-4848-32A0-198E3FBB5D76"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

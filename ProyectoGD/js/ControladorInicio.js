@@ -19,7 +19,11 @@ $(document).on('change','#fileElem',function(){
 	}
 });
 
-function handleFileSelect(evt) {
+function subir_archivos(form) {
+  
+}
+
+/*function handleFileSelect(evt) {
     evt.stopPropagation();
     evt.preventDefault();
 
@@ -57,3 +61,4 @@ function handleFileSelect(evt) {
   var dropZone = document.getElementById('drop_zone');
   dropZone.addEventListener('dragover', handleDragOver, false);
   dropZone.addEventListener('drop', handleFileSelect, false);
+*/

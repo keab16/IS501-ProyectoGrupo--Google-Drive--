@@ -123,7 +123,7 @@
             <div class="dropdown-menu">
             <a class="dropdown-item" href="#"><i class="fas fa-folder-plus"></i><span style="padding: 20px">Carpeta</span></a>
             <div class="dropdown-divider"></div>
-            <button class="dropdown-item" type="button" data-toggle="modal" data-target="#modal-Pin"><i class="fas fa-file-upload"></i><span style="padding: 20px">Subir Archivo</span></button>
+            <button class="dropdown-item" type="button" data-toggle="modal" data-target="#modal-SubirArch"><i class="fas fa-file-upload"></i><span style="padding: 20px">Subir Archivo</span></button>
             <a class="dropdown-item" href="#"><i class="fas fa-folder"></i><span style="padding: 20px">Subir Carpeta</span></a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#"><img style="width:30px" src="img/logo-word.png"><span style="padding: 20px">Documento de Texto</span></a>
@@ -181,17 +181,17 @@
         
    
 
-    <div class="modal fade" id="modal-Pin" tabindex="-1" role="dialog"  aria-hidden="true">
+    <div class="modal fade" id="modal-SubirArch" tabindex="-1" role="dialog"  aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title">Crear Pin</h5>
+                <h5 class="modal-title">Subir Archivo</h5>
                 <button type="button" class="close btn-light rounded-circle" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
-                <form id="frm-subirImagenPin" action="#" method="post" enctype="multipart/form-data">
+                <form id="frm-subirArchivo" action="ConexionBasedeDtos/subirArchivo" method="post" enctype="multipart/form-data">
                     <div>    
                         <div class="modal-body">  
                             <button type="button" class="imagenSub" id="drop_zone">
@@ -204,7 +204,7 @@
                         </div>
                     </div>  
                     <div class="btn-group" role="group" style="margin-left: auto; margin-right: auto;" >
-                        <button type="submit" class="btn btn-danger" id="btn-AgregarPin">Subir Imagen</button>  
+                        <button type="submit" class="btn btn-danger" id="btn-AgregarPin">Subir Archivo</button>  
                         <button type="button" class="btn btn-secundary" data-dismiss="modal">Cancelar y Cerrar</button>
                     </div>
                 </form> 

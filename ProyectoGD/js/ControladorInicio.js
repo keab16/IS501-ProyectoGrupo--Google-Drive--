@@ -1,11 +1,6 @@
-$("#drop_zone").click(function(){
-	var el = document.getElementById("fileElem");
-	if (el) {
-	el.click();
-	}
-});
 
-var srcImagen = ""; 
+
+/*var srcImagen = ""; 
 
 $(document).on('change','#fileElem',function(){
 	if(this.files && this.files[0]){
@@ -17,10 +12,39 @@ $(document).on('change','#fileElem',function(){
     // Añadimos al Div
 	  $('#preview').html(img);
 	}
+});*/
+
+$('#SubArchivo').click(function(){
+	var el = document.getElementById("fileElem");
+	if (el) {
+	el.click();
+	}
 });
 
-function subir_archivos(form) {
-  
+/*function subir_archivos() {
+  //var barra = document.getElementsByClassName('progress-bar')
+ 
+  let peticion = new XMLHttpRequest();
+
+  var progreso = 0;
+
+  peticion.upload.addEventListener("progress",(event){
+    let porcentaje = Math.round((event.loaded/event.total)*100);
+    
+  });
+
+var idIterval = setInterval(function(){
+  // Aumento en 10 el progeso
+  progreso +=10;
+  $('.progress-bar').css('width', progreso + '%');
+     
+  //Si llegó a 100 elimino el interval
+  if(progreso == 100){
+    clearInterval(idIterval);
+  }
+},1000);
+
+
 }
 
 /*function handleFileSelect(evt) {

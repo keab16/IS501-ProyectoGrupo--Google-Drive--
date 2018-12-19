@@ -94,16 +94,55 @@
                                             <div class="barra-input" id="barra-input"></div>
                                         </div>
                                     </div>
-                                </form>
-                                <div style="color: #757575; font-size: 12px; line-height: 1.3333; margin-top: 32px">
-                                    <div style="padding-bottom: 3px; padding-top: 9px;">
-                                        Utiliza ocho caracteres como mínimo con una combinación de letras, números y símbolos.
+                                    <div style="color: #757575; font-size: 12px; line-height: 1.3333; margin-top: 32px">
+                                        <div style="padding-bottom: 3px; padding-top: 9px;">
+                                            Utiliza ocho caracteres como mínimo con una combinación de letras, números y símbolos.
+                                        </div>
                                     </div>
-                                </div>
+                                    <div class="div-f">
+                                        <div class="div-f1">
+                                            <div class="div-f2">
+                                                <input name="txt-telefono" id="txt-telefono" autocomplete="username" spellcheck="false" tabindex="0" class="form-control div-f3 ">
+                                                <div id="texto-input" class="textoInput" aria-hidden="true">
+                                                    Telefono
+                                                </div>
+                                                <div class="invalid-feedback" style="position: absolute;">Ingresa su Telefono</div>
+                                            </div>
+                                            <div class="barra-input" id="barra-input"></div>
+                                        </div>
+                                    </div>
+                                    <div class="div-f">
+                                        <div class="div-f1">
+                                            <div class="div-f2">
+                                                <input onkeyup="validarEmail(this.value, this.id);" type="email" name="txt-correoRecuperacion" id="txt-correoRecuperacion" autocomplete="username" spellcheck="false" tabindex="0" class="form-control div-f3 ">
+                                                <div id="texto-input" class="textoInput" aria-hidden="true">
+                                                    Tu Dirección de correo electronico Recuperación
+                                                </div>
+                                                <div class="invalid-feedback" style="position: absolute;">Ingresa un correo valido</div>
+                                            </div>
+                                            <div class="barra-input" id="barra-input"></div>
+                                            <!--div id="errorCorreo" style="color:red; font-size:11px; margin-top:20px;"></div-->
+                                        </div>
+                                    </div>
+                                    <div class="div-f">
+                                        <div class="div-f1">
+                                            <div class="div-f2">
+                                                <input name="txt-direccion" id="txt-direccion" autocomplete="username" spellcheck="false" tabindex="0" class="form-control div-f3 ">
+                                                <div id="texto-input" class="textoInput" aria-hidden="true">
+                                                    Dirección
+                                                </div>
+                                                <div class="invalid-feedback" style="position: absolute;">Ingresa su Dirección</div>
+                                            </div>
+                                            <div class="barra-input" id="barra-input"></div>
+                                        </div>
+                                    </div>
+
+                                </form>
+
                                 <img src="../../img/account.svg" alt="imagenCuenta">
                                 <div class="div-c4">
                                     <div style="text-align: right;">
-                                        <button id="btnSiguienteConfirmacion" class="btn btn-primary" type="button">Siguiente</button>
+                                        <button id="btnSiguienteCuentaNueva" class="btn btn-primary" type="button">Siguiente</button>
                                     </div>
                                     <div>
                                         <div>

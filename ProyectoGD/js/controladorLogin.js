@@ -54,6 +54,9 @@ $(document).ready(function() {
     $("#btnSiguienteConfirmacionNueva").click(function() {
         fConfirmarContrasenia();
     });
+    $("#btnSiguienteCuentaNueva").click(function() {
+        fCuentaNueva();
+    });
 });
 
 //----------------------------------Funciones Login-------------------------------
@@ -113,17 +116,51 @@ function validarEmail(email, id) {
 }
 
 function fCuentaNueva() {
-    validarCampoVacio("txt-nombre");
-    validarCampoVacio("txt-apellido");
-    validarCampoVacio("txt-correo");
-    validarCampoVacio("txt-contraseniaNuevo");
-    validarCampoVacio("txt-contraseniaConfirmar");
+    if (
+        validarCampoVacio("txt-nombre") &&
+        validarCampoVacio("txt-apellido") &&
+        validarCampoVacio("txt-correo") &&
+        validarCampoVacio("txt-contraseniaNuevo") &&
+        validarCampoVacio("txt-contraseniaConfirmar") &&
+        validarCampoVacio("txt-telefono") &&
+        validarCampoVacio("txt-correoRecuperacion") &&
+        validarCampoVacio("txt-direccion")
+    ) {
+        var parametros = "nombreUsuario=" + $("#txt-nombre").val() + "&" +
+            "apellidoUsuario=" + $("#txt-apellido").val() + "&" +
+            "correoElectronico=" + $("#txt-correo").val() + "&" +
+            "contrasenia=" + $("#txt-contraseniaNuevo").val() + "&" +
+            "telefono=" + $("#txt-telefono").val() + "&" +
+            "correoRecuperacion=" + $("#txt-correoRecuperacion").val() + "&" +
+            "direccion=" + $("#txt-direccion").val()
+        $.ajax({
+            url: "../../ajax/api.php?accion=guardarUsuario",
+            method: "POST",
+            data: parametros,
+            dataType: "json",
+        });
+        console.log(parametros);
+        location.href = "../../pages/login/";
+    }
 }
 
 function findex() {
     correoValido = $("#txt-correoElectronico").val();
     if (validarCampoVacio("txt-correoElectronico") && validarEmail(correoValido, "txt-correoElectronico")) {
-        location.href = "../../pages/login/ingresarContrasenia.php";
+        $.ajax({
+            url: "../../ajax/api.php?accion=obtenerUsuario",
+            dataType: 'json',
+            success: function(respuesta) {
+                console.log(respuesta);
+                for (var i = 0; i < respuesta.length; i++) {
+                    if (respuesta[i].CORREO_ELECTRONICO) {
+                        location.href = "../../pages/login/ingresarContrasenia.php";
+                    } else {
+                        $("#invalidOValido").html("Ingresa un correo electrónico o un número de teléfono Valido");
+                    }
+                }
+            }
+        });
     } else
         $("#invalidOValido").html("Ingresa un correo electrónico o un número de teléfono Valido");
 }
